@@ -1,0 +1,4 @@
+[flake8]
+per-file-ignores =
+    tests/*: D
+max-complexity = 10

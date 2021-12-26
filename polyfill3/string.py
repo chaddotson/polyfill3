@@ -1,3 +1,5 @@
+"""Polyfill string functions."""
+
 from sys import version_info
 
 
