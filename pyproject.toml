@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "polyfill3"
+version = "0.1.0"
+description = "Python 3 version polyfills"
+authors = ["Chad Dotson <1754094+chaddotson@users.noreply.github.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+pep8-naming = "^0.12.1"
+pytest = "^6.2.5"
+tox = "^3.24.4"
+black = "^21.12b0"
+flake8-quotes = "^3.3.1"
+pytest-cov = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
