@@ -52,12 +52,12 @@ jobs:
         - os: ubuntu-latest
           python: 3.9
           toxenv: py
-        # - os: ubuntu-latest
-        #   python: '3.10.0-alpha - 3.10.999'
-        #   toxenv: py
-        # - os: windows-latest
-        #   python: 3.6
-        #   toxenv: py
+        - os: ubuntu-latest
+          python: '3.10.0-alpha - 3.10.999'
+          toxenv: py
+        - os: windows-latest
+          python: 3.6
+          toxenv: py
         - os: ubuntu-latest
           python: 3.9
           toxenv: linters
