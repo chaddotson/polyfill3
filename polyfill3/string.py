@@ -27,6 +27,6 @@ def removesuffix(string: str, suffix: str) -> str:
     """
     if version_info[0:2] >= (3, 9):
         return string.removesuffix(suffix)
-    elif string.startswith(suffix):
+    elif string.endswith(suffix):
         return string[:-len(suffix)]
     return string
