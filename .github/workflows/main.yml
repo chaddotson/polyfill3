@@ -37,12 +37,12 @@ jobs:
     strategy:
       matrix:
         include:
-        # - os: ubuntu-latest
-        #   python: pypy-3.7
-        #   toxenv: py
-        # - os: ubuntu-latest
-        #   python: 3.6
-        #   toxenv: py
+        - os: ubuntu-latest
+          python: pypy-3.7
+          toxenv: py
+        - os: ubuntu-latest
+          python: 3.6
+          toxenv: py
         - os: ubuntu-latest
           python: 3.7
           toxenv: py
